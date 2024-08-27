@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-sacle=1.0">
+        <title>CMRIT Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"> <img src="images/logo.png"> </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>ABOUT CMRGI</h1>
+        </section>
+        
+        <!-------content------->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <img src="images/founder.jfif">
+                </div>
+                <div class="about-col">
+                    <h1>| CMR Jnanadhara Trust</h1>
+                    <p>The CMR Jnanadhara Trust was established in 1990, as a tribute to the 
+                    late Sri Chikka Muniyappa Reddy, a visionary educationalist and philanthropist 
+                    who believed that every individual deserves access to a quality education. 
+                    In accordance with his vision, the CMR educational institutes were founded to 
+                    give every student a chance at an outstanding, value-based and well-rounded education. 
+                    The CMR Jnanadhara Trust supports and manages all the activities of the CMR Group of 
+                    Institutions.</p>
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="about-col">
+                    <img src="images/logo.png">
+                </div>
+                <div class="about-col">
+                    <h1>| CMR Logo</h1>
+                    <p>
+                        The CMR logo is rooted in Indian tradition, yet rendered in the contemporary 
+                        form of the Hamsa, the Swan. The swan is the carrier of Goddess Saraswathi – 
+                        the Goddess of Learning.<br>
+                        It is said that the Swan with its sensitive beak has the power of discrimination – 
+                        an ability to distinguish pure milk from a mixture of milk and water. The wings of the 
+                        Swan rendered in the alternating flowing lines of blue and white represent the metaphor 
+                        of milk and water. The blue stands for clarity of purpose and the white for purity 
+                        of vision. The overall form of the logo radiates and sparkles in the calm, self-contained 
+                        posture of the Swan gliding on water.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="about-col">
+                    <img src="images/background 1.jpg">
+                </div>
+                <div class="about-col">
+                    <h1>| CMR Group of Institutions</h1>
+                    <p>
+                        The CMR Group is a unique educational conglomerate consisting of K-12 schools, 
+                        a number of institutions of Higher Education, a Pre-University College, various 
+                        Centres of Excellence in Research, and a Private University. These educational 
+                        institutions are located at eleven different campuses across the city of Bangalore, 
+                        India. CMR has also partnered with the National Education Trust to found the NPS 
+                        International School on a lush 6-acre campus in Singapore. The Group caters to over 
+                        18000 students from 58+ countries. Academic programmes are varied and cover more than 
+                        50 areas of study including engineering, education, law, management, biosciences, 
+                        business administration, and psychology at the undergraduate, postgraduate, and doctoral 
+                        levels.<br>
+                        <a href="https://www.cmrit.ac.in/about-cmrgi/" class="hero-btn blue-btn">Explore Now</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-------footer------->
+        <section class="footer">
+            <p>Know more about us through our social platforms</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/CMRInstituteOfTechnologyBangalore/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/cmrit.bangalore/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCpi96paEf16WS-Xf0_xyL9Q"><i class="fa fa-youtube-play"></i></a>
+            <a href="https://twitter.com/CMRIT_Bengaluru"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/school/cmr-institute-of-technology-bengaluru/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Created by Shreyank, Rishabh, Mithun</p>
+        </section>
+
+
+
+        <!-------JavaScript for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+
+    </body>
+</html>
